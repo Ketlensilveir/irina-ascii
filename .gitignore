@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+output/
+*.mp4
+.DS_Store
+
+# Arquivos locais e credenciais
+.ruff_cache/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example

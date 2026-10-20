@@ -1,0 +1,12 @@
+[tool.ruff]
+target-version = "py39"
+line-length = 88
+extend-exclude = ["original", "output"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+# O aviso do Pygame precisa ser desativado antes de importar a biblioteca.
+"live_app.py" = ["E402"]
+"test_renderer_quality.py" = ["E402"]
