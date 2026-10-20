@@ -10,6 +10,12 @@ Programa Python que abre uma janela horizontal e reconstrói a Irina com caracte
 
 Dê duplo clique em **Iniciar Irina.command**. Na primeira execução, o iniciador cria `.venv` e instala as dependências, se necessário. Requer Python 3.9–3.12.
 
+Se o macOS indicar falta de permissão após baixar o projeto, libere o iniciador uma vez, pelo Terminal na pasta do projeto:
+
+```bash
+chmod +x "Iniciar Irina.command"
+```
+
 Ou execute pelo Terminal, na pasta do projeto:
 
 ```bash
